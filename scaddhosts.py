@@ -86,9 +86,8 @@ def addSnmpColElement(data, server, port, cookies, elementType):
     # Check if the element already exists:
     exists=checkSnmpColElementExists(data['ID'], server, port, cookies, elementType)
 
-    print("Adding device {0}.".format(data['ID']))
-
     # Add or ammend element:
+    print("Adding device {0}.".format(data['ID']))
     if(exists):
         url="http://{0}:{1}/api/cfg/{2}/{3}".format(server, port, elementType, data['ID'])
         r = requests.put(url, json=data, headers=headers, cookies=cookies)
