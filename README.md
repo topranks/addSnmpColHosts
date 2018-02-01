@@ -2,7 +2,7 @@
 
 This is a simple python script which can be used to add multiple devices to SNMP Collector.
 
-Please see the project homepage for more info on SNMP Collector:
+Please see the project homepage for more info on the excellent SNMP Collector:
 
 https://github.com/toni-moreno/snmpcollector
 
