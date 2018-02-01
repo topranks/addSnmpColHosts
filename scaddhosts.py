@@ -41,7 +41,7 @@ def addSnmpColHosts(args, cookies):
             "Port": 161,
             "Retries": 5,
             "Timeout": 20,
-            "Active": False,
+            "Active": True,
             "SnmpVersion": "2c",
             "DisableBulk": False,
             "Community": args.community,
